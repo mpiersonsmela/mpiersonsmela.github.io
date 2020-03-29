@@ -2,10 +2,14 @@ body {
      font-family: 'Helvetica-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
      font-size: 16px;
      font-weight: 300;
-     color: #3d455c;
+     color: #304050;
      margin: 0;
      padding: 0;
      overflow-x: hidden;
+}
+
+.navbar {
+     background-color: #004080;
 }
 
 .collapsing {
@@ -48,10 +52,6 @@ h5 {
     font-family: Helvetica Neue
 }
 
-#fasta {
-    font-family: Courier;
-    font-size: 16px
-}
 
 #bulletpoint {
     font-family: 'Helvetica-Light';
