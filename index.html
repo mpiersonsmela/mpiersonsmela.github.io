@@ -58,23 +58,21 @@
   <div class="pl-5 pr-5">
     <br><br><br>
     
-    <div class="pt-4"><h2>About the T-Box database</h2></div>
-    <div class="pt-4"><p>test paragraph; lorem ipsum</p>
-    </div>
+      <div class="pt-1">
+        <h2>About Merrick</h2>
+      </div>
+      <p class="text-justify">He's the most remarkable, extraordinary fellow!</p>
     
-    <div class="pt-3"><h5></h5></div>
-    <p class="text-justify">Seed sequences for building the TBDB were obtained from previously published datasets. Structurally annotated datasets from <a href = "https://dx.doi.org/10.1261/rna.819308">Vitreschak <i>et al.</i></a> were used for validation. T-Boxes were assigned a unique ID based on sequence to de-deplicate entries shares between datasources.
+     <ul id="bulletpoint">
+         <li><a href = "https://example.com">This</a> is</li>
+         <li><a href = "http://example.com">a</a> bullet</li>
+         <li><a href = "https://example.com">point</a> list.</li>
+      </ul>
+       
+    <div class="pt-3"><h5>More stuff</h5></div>
+    <p class="text-justify">goes here.
     </p>
-      <ul id="bulletpoint">
-        <li><a href = "https://rfam.xfam.org/family/RF00230">The Rfam database</a> (12313 T-boxes, predicted using <a href=http://eddylab.org/infernal/>INFERNAL</a>)</li>
-        <li><a href = "http://operons.ibt.unam.mx/gctNG/">GeCont3 <i>et al.</i>, 2008</a> (6000 T-boxes)</li>
-        <li><a href = "https://dx.doi.org/10.1261/rna.819308">Vitreschak <i>et al.</i>, 2008</a> (698 T-boxes, structurally annotated)</li>
-    </ul>
-      
-  <div class="pt-3"><h5>Feature prediction</h5></div>
-  <p class="text-justify">  The predictions contained in the TBDB were performed using the methods found in the <a href="#">BioRXIV</a>. All code used to generate the databse is present in <a href = "https://github.com/mpiersonsmela/tbox"> our Github.</a> In summary, our pipeline performs feature prediction in two steps. First, the seed sequence is passed to INFERNAL, which uses a covariance model (<a href = "http://rfam.xfam.org/family/RF00230/cm">RF00230.cm</a>, obtained from Rfam) to predict secondary structure. The secondary structure is then searched for conserved motifs including Stem I, the specifier loop, and the antiterminator. The codon and discriminator are extracted from the position of these motifs. To predict terminator structures, the 3'-end of the T-Box leader is used as a seed for INFERNAL. Specifier loops were located based on their proximity to the base of Stem I, while anti-acceptor sequence (containing the anti-discriminator base) was detected from anti-terminator loop. Most likley codons within specifier loops were chosen based on their locus within the specifier loop, though alternative codon-frames are also presented. </p>
- 
-    
+
   </div>
   <br>
 </main>
