@@ -29,6 +29,10 @@ ul {
      font-family: 'Helvetica-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+li {
+     font-family: 'Helvetica-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 
 /* this is styling for the search bar in the database table*/
 #example_filter input {
